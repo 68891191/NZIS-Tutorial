@@ -1,0 +1,8 @@
+﻿@{
+    var universityViewData = ViewData["University"] as University;
+    var universityViewBag = ViewBag.University as University;
+}
+
+<h2>@universityViewData?.Name</h2>
+
+<h2>@universityViewBag?.Name</h2>
